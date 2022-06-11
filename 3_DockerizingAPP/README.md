@@ -24,11 +24,11 @@
 
 **Info**: using docker is very simple, you just only need to understand the basic concept.
 - **Docker Image** is adopted as the instruction for creating your web application.
-    - Including source codes, the dependencies that be used in the app.
-    - Generally we communicate docker images using internet sockets.
+    - Including source codes and the dependencies that be used in the app.
+    - Generally, we communicate docker images using internet sockets.
 - **Docker Container** is an instance that follows instructions to create an app from docker images.
     - One Container also can be built with many images that work together.
-        - You can have Python-based app image work with DB image such as SQL or Redis. (Here to run we use Docker-compose) 
+    - You can have a Python-based app image work with DB images such as SQL or Redis. (Here, to run, we use Docker-compose) 
     - Therefore, Container is said to be the production of dockers images.
 
 3. Write `dockerfile` served as an instruction to create Cats-and-Dogs app.
@@ -73,7 +73,7 @@ ENTRYPOINT ["python3", "app.py"] # run Flask
 - cURL:
    - `$ curl --form image=@path/to/image http://localhost:5000/classify/image`
 
-Finally, now we can bring your model and implement it in API service Moreover you make it can be run in any environment no matter any OS. Hope this tutorial is useful for you.
+Finally, now we can bring your model and implement it in the API service. Moreover, you make it can be run in any environment no matter what. I hope this tutorial is helpful for you.
 
 Isada
 
