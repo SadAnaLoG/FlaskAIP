@@ -1,0 +1,14 @@
+FROM python
+
+RUN apt-get -y update
+RUN apt-get install python3-opencv -y
+
+ADD ./app /home/app/
+ADD requirements.txt /home/app/
+
+WORKDIR /home/app/
+
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
+
+ENTRYPOINT ["python3", "app.py"]
