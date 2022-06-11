@@ -49,7 +49,7 @@ dataset/
 
 **Additional** This dataset is from a Kaggle competition so-called [Dogs vs. Cats](https://www.kaggle.com/competitions/dogs-vs-cats). You may challenge yourself by joining the competition and fine-tuning your model. So submit the best of your model to see the result.
 
-That's it for this section. Let move to the next part: [2_CreatingAPI](../2_CreatingAPI/README.md).
+That's it for this section. Let move to the next part: [2_CreatingAPI](2_CreatingAPI/README.md).
 
 Isada
 
